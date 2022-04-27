@@ -7,14 +7,14 @@ hudDef {
 		// Left down
 		staminabar		3	390	12	72	0	1
 		healthbar		15	390	12	72	0	1
-		compas			25	395	90	90	0	1
-		breathbar		104	388	12	72	0	1 // ?
+		breathbar		104	388	12	72	0	1
+		healthtext		40	475	0	0	0	1
 		
 		// Middle up
-		spawntimer		290	300	99	99	0	1
-		reinforcement	310	300	0	0	0	1
-		roundtimer		310	300	0	0	0	1
-		healthtext		260	270	0	0	0	1
+		spawntimer		300	300	99	99	0	1
+		reinforcement	315	300	0	0	0	1
+		roundtimer		330	300	0	0	0	1
+		compas			290	395	90	90	0	1
 		
 		// Middle half up
 		// Middle half down
@@ -40,7 +40,7 @@ hudDef {
 		weaponstability	50	208	10	64	0	0
 		
 		// Not used
-		livesleft		0	0	0	0	0	0
+		livesleft		0	0	0	0	0	1
 		hudhead			44	388	62	80	0	0
 		statsdisplay	90	390	0	0	1	0
 		powerups		380	-5	72	72	1	1
